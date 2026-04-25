@@ -1,0 +1,99 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>鏃呮父闂嵎璋冩煡 - 鎺㈢储涓栫晫</title>
+    <link rel="stylesheet" href="css/survey.css">
+</head>
+<body>
+    <div class="survey-container">
+        <h1>鏃呮父闂嵎璋冩煡</h1>
+        <p style="text-align: center;">璇峰～鍐欎互涓嬮棶鍗凤紝甯姪鎴戜滑鏇村ソ鍦颁簡瑙ｆ偍鐨勬梾娓稿亸濂斤拷?/p>
+        <form action="#" method="post">
+            <h3>鍩烘湰淇℃伅</h3>
+            <label for="name">濮撳悕锟?/label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">閭锟?/label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="age">骞撮緞锟?/label>
+            <input type="number" id="age" name="age" min="1" max="120">
+
+            <h3>鏃呮父鍋忓ソ</h3>
+            <label for="destination">鏈€鎯冲幓鐨勬梾娓哥洰鐨勫湴锟?/label>
+            <select id="destination" name="destination">
+                <option value="">璇烽€夋嫨</option>
+                <option value="beijing">鍖椾含</option>
+                <option value="shanghai">涓婃捣</option>
+                <option value="xian">瑗垮畨</option>
+                <option value="guilin">妗傛灄</option>
+                <option value="lijiang">涓芥睙</option>
+                <option value="zhangjiajie">寮犲锟?/option>
+                <option value="hangzhou">鏉窞</option>
+                <option value="sanya">涓変簹</option>
+                <option value="chengdu">鎴愰兘</option>
+                <option value="kunming">鏄嗘槑</option>
+                <option value="nanjing">鍗椾含</option>
+                <option value="suzhou">鑻忓窞</option>
+                <option value="guangzhou">骞垮窞</option>
+                <option value="shenzhen">娣卞湷</option>
+                <option value="tianjin">澶╂触</option>
+                <option value="pingyao">骞抽仴</option>
+                <option value="lanzhou">鍏板窞</option>
+                <option value="harbin">鍝堝皵锟?/option>
+                <option value="dalian">澶ц繛</option>
+            </select>
+
+            <label for="travel_type">鏃呮父绫诲瀷锟?/label>
+            <select id="travel_type" name="travel_type">
+                <option value="">璇烽€夋嫨</option>
+                <option value="beach">娴锋哗搴﹀亣</option>
+                <option value="city">鍩庡競瑙傚厜</option>
+                <option value="adventure">鍐掗櫓鏃呰</option>
+                <option value="cultural">鏂囧寲浣撻獙</option>
+                <option value="food">缇庨涔嬫梾</option>
+                <option value="nature">鑷劧椋庡厜</option>
+                <option value="historical">鍘嗗彶鍙よ抗</option>
+            </select>
+
+            <label for="budget">棰勭畻鑼冨洿锛堟瘡浜烘瘡澶╋級锟?/label>
+            <select id="budget" name="budget">
+                <option value="">璇烽€夋嫨</option>
+                <option value="low">500鍏冧互锟?/option>
+                <option value="medium">500-2000锟?/option>
+                <option value="high">2000鍏冧互锟?/option>
+            </select>
+
+            <label for="group_size">鍑鸿浜烘暟锟?/label>
+            <select id="group_size" name="group_size">
+                <option value="">璇烽€夋嫨</option>
+                <option value="solo">鐙嚜鏃呰</option>
+                <option value="couple">鎯呬荆/澶</option>
+                <option value="family">瀹跺涵鍑烘父</option>
+                <option value="group">鍥綋鏃呰</option>
+            </select>
+
+            <label for="duration">鏃呰鏃堕暱锟?/label>
+            <select id="duration" name="duration">
+                <option value="">璇烽€夋嫨</option>
+                <option value="1-3">1-3锟?/option>
+                <option value="4-7">4-7锟?/option>
+                <option value="8-14">8-14锟?/option>
+                <option value="15+">15澶╀互锟?/option>
+            </select>
+
+            <label for="comments">鍏朵粬寤鸿锟?/label>
+            <textarea id="comments" name="comments" rows="4" placeholder="璇峰垎浜偍鐨勬梾娓哥粡楠屾垨寤鸿..."></textarea>
+
+            <button type="submit">鎻愪氦闂嵎</button>
+        </form>
+        <div class="links">
+            <p><a href="index.html">杩斿洖棣栭〉</a></p>
+        </div>
+    </div>
+
+    <script src="js/survey.js"></script>
+</body>
+</html>
